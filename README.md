@@ -1,5 +1,5 @@
 # GameMan
-attempting to make a gameboy emulator on windows for fun
+attempting to make a gameboy emulator on windows for fun (it's called gameman because i could not think of a better name)
 
 ##  Graphics
 This project uses raylib 5.5
