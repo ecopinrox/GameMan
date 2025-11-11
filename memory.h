@@ -2,16 +2,16 @@
 
 #include <stdint.h>
 
-uint8_t ROM0[16384];        //0x0000 - 0x3FFF, from cartridge
-uint8_t ROM1[16384];        //0x4000 - 0x7FFF, from cartridge (switchable via mapper)
-uint8_t VRAM[8192];         //0x8000 - 0x9FFF
-uint8_t ExtRAM[8192];       //0xA000 - 0xBFFF
-uint8_t WRAM[8192];         //0xC000 - 0xDFFF
-//Echo of WRAM              //0xE000 - 0xFDFF   
-uint8_t OAM[160];           //0xFE00 - 0xFE9F
-//Unused                    //0xFEA0 - 0xFEFF
-uint8_t IO[128];            //0xFF00 - 0xFF7F
-uint8_t HRAM[127];          //0xFF80 - 0xFFFE
+uint8_t ROM0[16384];                //0x0000 - 0x3FFF, from cartridge
+uint8_t ROM1[16384];                //0x4000 - 0x7FFF, from cartridge (switchable via mapper)
+uint8_t VRAM[8192];                 //0x8000 - 0x9FFF
+uint8_t ExtRAM[8192];               //0xA000 - 0xBFFF
+uint8_t WRAM[8192];                 //0xC000 - 0xDFFF
+//Echo of WRAM                      //0xE000 - 0xFDFF   
+uint8_t OAM[160];                   //0xFE00 - 0xFE9F
+//Unused                            //0xFEA0 - 0xFEFF
+uint8_t IO[128];                    //0xFF00 - 0xFF7F
+uint8_t HRAM[127];                  //0xFF80 - 0xFFFE
 uint8_t InterruptEnableRegister;    //0xFFFF
 
 
